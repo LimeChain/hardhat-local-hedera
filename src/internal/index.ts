@@ -46,5 +46,7 @@ extendConfig(
 );
 
 extendEnvironment((hre: any) => {
-    execSync('npx local-hedera restart', {stdio: 'inherit'});
+    if (hre.config.defaultNetwork == 'localHederaNetwork') {
+        execSync('npx local-hedera restart', {stdio: 'inherit'});
+    }
 });
