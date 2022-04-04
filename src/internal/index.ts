@@ -37,6 +37,26 @@ extendConfig(
                         {
                             'account': '0.0.1005',
                             'privateKey': '0x5829cf333ef66b6bdd34950f096cb24e06ef041c5f63e577b4f3362309125863'
+                        },
+                        {
+                            'account': '0.0.1006',
+                            'privateKey': '0x8fc4bffe2b40b2b7db7fd937736c4575a0925511d7a0a2dfc3274e8c17b41d20'
+                        },
+                        {
+                            'account': '0.0.1007',
+                            'privateKey': '0xb6c10e2baaeba1fa4a8b73644db4f28f4bf0912cceb6e8959f73bb423c33bd84'
+                        },
+                        {
+                            'account': '0.0.1008',
+                            'privateKey': '0xfe8875acb38f684b2025d5472445b8e4745705a9e7adc9b0485a05df790df700'
+                        },
+                        {
+                            'account': '0.0.1009',
+                            'privateKey': '0xbdc6e0a69f2921a78e9af930111334a41d3fab44653c8de0775572c526feea2d'
+                        },
+                        {
+                            'account': '0.0.1010',
+                            'privateKey': '0x3e215c3d2a59626a669ed04ec1700f36c05c9b216e592f58bbfd3d8aa6ea25f9'
                         }
                     ]
                 }
