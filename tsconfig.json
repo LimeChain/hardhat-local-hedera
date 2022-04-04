@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "./build-test",
+    "rootDirs": [
+      "./test"
+    ],
+    "composite": true,
+    "target": "ES2017",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "../../node_modules/@types",
+      "./@types"
+    ],
+    "noEmitOnError": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./test/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./test/**/hardhat.config.ts"
+  ],
+  "references": [
+    {
+      "path": "./src"
+    }
+  ]
+}
